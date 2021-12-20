@@ -1,14 +1,17 @@
-*{
+
+/* Inizio regola generale*{ */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+/* Fine regola generale */
 
 .container{    
     width: 1400px;
     height: 500px;  
       
 }
+/* Inizio header */
 .bg-img{
     background-image: url(img/jumbo.png);
     width: 100%;
@@ -16,9 +19,9 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
-    
+    position: relative;    
 }
+/* Inizio nav */
 nav{         
     height: 50px;
 }  
@@ -26,11 +29,9 @@ nav{
     width: 70%;
     margin: auto;
 }
-.logo-nav > img{
-    position: absolute;
-
+.logo-discord{       
+    vertical-align: middle;   
 }
-
 ul{
     display: inline-block;
 }   
@@ -43,31 +44,47 @@ ul > li:nth-last-child(1){
 li{
     display: inline-block;  
     text-align: center; 
-    padding: 20px;
-    
+    padding: 20px;    
 }
-
 a{
     text-decoration: none;
     color: white;    
 }
 .accedi{
     position: relative;
-    left: 20px;
+    left: 15px;
     display: inline-block;    
-    border: 1px solid black;
+    border: 1px solid white;
     background-color: white;
     border-radius: 20px;
-    padding: 8px;    
+    padding: 9px;    
 }
-
-.testo{
-    margin-top: 200px;
-    width: 500px;
-    height:150px;    
+/* Fine nav */
+/* Inizio testo */
+.testo{      
+    width: 60%;      
+    margin: auto;   
+    padding-top: 80px;       
     color: white;
     text-align: center;
-    position: relative;
-    
-
+    font-size: 23px;   
 }
+.testo > p{
+    padding: 30px;
+}
+.mac{    
+    padding: 8px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+}
+.browser{
+    padding: 8px;
+    border: 1px solid rgb(36, 35, 35);
+    border-radius: 20px;
+    background-color: rgb(36, 35, 35);
+    color: white;    
+}
+/* Fine testo */
+/* Fine header */
