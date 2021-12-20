@@ -1,10 +1,11 @@
-
-/* Inizio regola generale*{ */
+/* Inizio regola generale */
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 /* Fine regola generale */
+
 
 .container{    
     width: 1400px;
