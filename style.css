@@ -3,14 +3,23 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
 }
 /* Fine regola generale */
 
 
 .container{    
     width: 1400px;
-    height: 500px;  
-      
+    height: 600px;        
+}
+p{
+    margin-top: 20px;
+    line-height: 180%;
 }
 /* Inizio header */
 .bg-img{
@@ -29,20 +38,21 @@ nav{
 .logo-nav{
     width: 70%;
     margin: auto;
+    position: relative;
 }
 .logo-discord{       
     vertical-align: middle;   
 }
-ul{
+.ul{
     display: inline-block;
 }   
-ul > li:nth-child(1){
+.ul > li:nth-child(1){
     margin-left: 120px;
 }
-ul > li:nth-last-child(1){
+.ul > li:nth-last-child(1){
     margin-right: 120px;
 }
-li{
+.li{
     display: inline-block;  
     text-align: center; 
     padding: 20px;    
@@ -52,40 +62,310 @@ a{
     color: white;    
 }
 .accedi{
-    position: relative;
-    left: 15px;
+    position: absolute;
+    right: 0;
+    top: 10px;
     display: inline-block;    
     border: 1px solid white;
     background-color: white;
     border-radius: 20px;
     padding: 9px;    
 }
+.accedi > a{
+    color: black;
+}
 /* Fine nav */
 /* Inizio testo */
-.testo{      
+.testo{        
     width: 60%;      
     margin: auto;   
-    padding-top: 80px;       
+    padding-top: 120px;       
     color: white;
     text-align: center;
-    font-size: 23px;   
+    font-size: 21px;   
 }
-.testo > p{
-    padding: 30px;
+.testo > p{      
+    padding: 20px;
+    margin-bottom: 20px;
 }
-.mac{    
-    padding: 8px;
+.mac{  
+    margin-right: 20px;  
+    padding: 15px;
     border: 1px solid white;
-    border-radius: 20px;
+    border-radius: 25px;
     background-color: white;
     color: black;
 }
 .browser{
-    padding: 8px;
+    padding: 15px;
     border: 1px solid rgb(36, 35, 35);
-    border-radius: 20px;
+    border-radius: 25px;
     background-color: rgb(36, 35, 35);
     color: white;    
 }
 /* Fine testo */
 /* Fine header */
+
+/* Inizio main1 */
+.main1{
+    width: 70%;
+    margin: auto;    
+}
+/* Inizio container-item1 */
+.container-item1{
+    width: 100%;       
+    position: relative;
+    margin-top: 50px;   
+}
+/* Inizio section1 */
+.img-item1{
+    position: relative;    
+    display: inline-block;   
+    vertical-align: middle; 
+    position: absolute;
+    top: 0;
+    left: 0;    
+}
+.img-item1 > img{
+    width: 450px;
+}
+/* Fine section1 */
+/* Inizio section2 */
+.testo-main1-h2{   
+    width: 290px;         
+    display: inline-block;    
+    vertical-align: middle; 
+    position: absolute;
+    top: 40px;
+    right: 0;       
+}
+.testo-main1-h2 > p{
+    font-size: 16px;
+}
+.testo-main1-h2 > h2{
+    font-size: 36px;
+}
+/* Fine section2 */
+/* Fine container-item1 */
+/* Fine main1 */
+
+/* Inizio main2 */
+.main2{
+    width: 70%;
+    margin: auto;    
+}
+/* Inizio container-item2 */
+.container-item2{
+    width: 100%;       
+    position: relative;
+    margin-top: 50px;   
+}
+/* Inizio section3 */
+.img-item2{
+    position: relative;    
+    display: inline-block;   
+    vertical-align: middle; 
+    position: absolute;
+    top: 0;
+    right: 0;    
+}
+.img-item2 > img{
+    width: 450px;
+}
+/* Fine section3 */
+/* Inizio section4 */
+.testo-main2-h2{   
+    width: 290px;           
+    display: inline-block;    
+    vertical-align: middle; 
+    position: absolute;
+    top: 40px;
+}    
+.testo-main2-h2 > p{
+    font-size: 16px;
+}
+.testo-main2-h2 > h2{
+    font-size: 36px;
+}
+/* Fine section4 */
+/* Fine container-item2 */
+/* Fine main2 */
+
+/* Inizio main3 */
+.main3{
+    width: 70%;
+    margin: auto;    
+}
+/* Inizio container-item3 */
+.container-item3{
+    width: 100%;       
+    position: relative;
+    margin-top: 50px;   
+}
+/* Inizio section5 */
+.img-item3{
+    position: relative;    
+    display: inline-block;   
+    vertical-align: middle; 
+    position: absolute;
+    top: 0;
+    left: 0;    
+}
+.img-item3 > img{
+    width: 450px;
+}
+/* Fine section5 */
+/* Inizio section6 */
+.testo-main3-h2{   
+    width: 290px;         
+    display: inline-block;    
+    vertical-align: middle; 
+    position: absolute;
+    top: 40px;
+    right: 0;       
+}
+.testo-main3-h2 > p{
+    font-size: 16px;
+}
+.testo-main3-h2 > h2{
+    font-size: 36px;
+}
+/* Fine section6 */
+/* Fine container-item3 */
+/* Fine main3 */
+.big-contein4{
+    height: 800px;
+}
+/* Inizio main4 */
+.main4{
+    width: 70%;
+    margin: auto; 
+}
+/* Inizio container-item4 */
+.container-item4{
+    width: 100%;       
+    position: relative;
+    margin-top: 50px;   
+}
+/* Inizio testo-main4-h2, h3 */
+.testo-main4-h2{
+    text-align: center;
+    font-size: 18px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.tecnologia{
+    font-weight: 700;
+    font-size: 40px;
+}
+h3{
+    padding-top: 20px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;    
+    background-image: url(img/stars.svg);  
+    background-size: contain;   
+    background-repeat: no-repeat;      
+    width: 400px;
+    height: 50px;
+    margin-bottom: 10px;    
+}
+/* Fine testo-main4-h2, h3 */
+/* Inizio img-item4 */
+.img-item4{
+    text-align: center;
+}
+/* Fine img-item4 */
+/* Inizio download */
+.download{    
+    margin: auto;
+    width: 200px;
+    padding: 10px;
+    border: 1px solid rgb(80, 80, 245);
+    border-radius: 25px;
+    background-color: rgb(80, 80, 245);
+    color: white;
+    text-align: center;
+}
+/* Fine download */
+/* Fine container-item4 */
+/* Fine main4 */
+
+/* Inizio container c-footer */
+.c-footer{
+    background-color: #23272a;      
+}
+/* Inizio main-footer */
+.main-footer{
+    width: 70%;
+    margin: auto;
+}
+/* Inizio footer-h2 clearfix*/
+.footer-h2{
+    width: 100%;    
+    position: relative;
+    padding-top: 40px;   
+    color: white;    
+    padding-bottom: 20px;  
+}
+i{
+    padding-right: 15px;
+}
+.col > h2{
+    color: blueviolet;
+    margin-bottom: 20px;
+}
+.col > img{
+    width: 20px;
+    height: 15px;
+}
+.col > div{
+    margin-top: 20px;
+}
+.col{
+    float: left;
+    width: 20%;   
+}
+
+select{
+    border: none;
+    background-color: #23272a; 
+    color: white;
+}
+li{
+    list-style: none;
+    line-height: 180%;
+    color: white;
+}
+h4{
+    margin-bottom: 10px;
+    color: blueviolet;
+}
+/* Fine footer-h2 clearfix */
+hr{
+    border: 1px solid rgb(158, 158, 158);
+}
+/* Inizio content-footer */
+.content-footer{
+    position: relative;
+    margin-top: 20px;    
+}
+/* Inizio logo-footer, registrati */
+.logo-footer{    
+    vertical-align: middle;
+}
+.registrati{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+}
+.registrati > a{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(80, 80, 245);
+}
+/* Fine logo-footer, registrati  */
+/* Fine content-footer */
+/* Fine main-footer */
+/* }Fine container c-footer */
